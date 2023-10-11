@@ -1,9 +1,11 @@
 import React from "react";
 
+import "./Header.css";
+
 const Header = () => {
   return (
     <div>
-      <h1>Job Tracker</h1>
+      <h1 className="header">Job Tracker</h1>
     </div>
   );
 };

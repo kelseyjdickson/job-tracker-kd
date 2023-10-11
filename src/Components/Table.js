@@ -6,16 +6,16 @@ const Table = ({ rows, deleteRow, editRow }) => {
   return (
     <div className="table-wrapper">
       <table className="table">
-        <thead>
+        <thead className="t-head">
           <tr>
-            <th>Date</th>
-            <th>Company Name</th>
-            <th className="expand">Position Title</th>
-            <th>Job Posting Link</th>
-            <th>Status</th>
+            <th>DATE</th>
+            <th>COMPANY NAME</th>
+            <th className="expand">POSITION TITLE</th>
+            <th>JOB POSTING LINK</th>
+            <th>STATUS</th>
 
-            <th className="expand">Notes</th>
-            <th className="actions">Actions</th>
+            <th className="expand">NOTES</th>
+            <th className="actions">ACTIONS</th>
           </tr>
         </thead>
         <tbody>

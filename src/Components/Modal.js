@@ -51,6 +51,7 @@ const Modal = ({ closeModal, onSubmit, defaultValue }) => {
       return false;
     }
   };
+
   return (
     <div
       className="modal-container"
@@ -87,7 +88,11 @@ const Modal = ({ closeModal, onSubmit, defaultValue }) => {
           </div>
           <div className="form-group">
             <label htmlFor="link">Job Posting Link</label>
-            <input name="link" />
+            <input
+              name="link"
+              value={formState.link}
+              onChange={handleFormChange}
+            />
           </div>
           <div className="form-group">
             <label htmlFor="status">Status</label>

@@ -1,5 +1,5 @@
 .table-wrapper {
-  width: 100%;
+  width: 90%;
 }
 
 .table {
@@ -7,26 +7,33 @@
   overflow: hidden;
   table-layout: auto;
   border-collapse: collapse;
-  box-shadow: 0px 10px 10px rgb(236, 223, 218);
+  box-shadow: 0px 10px 10px rgb(228, 229, 245);
   white-space: nowrap;
   max-width: 100%;
   margin: auto;
   overflow-x: auto;
+  background-color: rgb(228, 229, 245);
+}
+tr:nth-child(even) {
+  background-color: rgb(252, 252, 255);
 }
 
 .table thead {
-  background-color: rgb(236, 223, 218);
-  color: grey;
-  font-weight: 500;
+  background-color: rgb(228, 229, 245);
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.table th {
+  border: 1px solid rgb(169, 193, 226);
 }
 
 .table th,
-table td {
+.table td {
   padding: 0.8rem;
 }
 
 .table td {
-  border-top: 2px solid black;
   overflow: hidden;
   text-overflow: ellipsis;
 }
@@ -50,15 +57,27 @@ table td {
 }
 
 .label-applied {
-  background-color: lightgreen;
+  background-color: rgb(147, 190, 147);
+  color: rgb(84, 107, 84);
+  border-radius: 15px;
+  padding: 10px;
+  font-weight: bolder;
 }
 
 .label-need-to-apply {
-  background-color: lightcoral;
+  background-color: rgb(244, 164, 164);
+  border-radius: 15px;
+  color: rgb(187, 77, 77);
+  padding: 10px;
+  font-weight: bolder;
 }
 
 .label-in-progress {
-  background-color: lightseagreen;
+  background-color: rgba(237, 237, 129, 0.718);
+  color: rgb(167, 112, 24);
+  border-radius: 15px;
+  padding: 10px;
+  font-weight: bolder;
 }
 
 .actions {
@@ -80,4 +99,12 @@ table td {
 
 .link {
   text-decoration: none;
+}
+
+table td {
+  border: 1spx solid rgb(169, 193, 226);
+}
+
+table {
+  border-radius: 10px;
 }
