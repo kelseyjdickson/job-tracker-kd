@@ -26,7 +26,7 @@ const Table = ({ rows, deleteRow, editRow }) => {
               <tr key={index}>
                 <td>{row.date}</td>
                 <td>{row.company}</td>
-                <td className="title expand">{row.position}</td>
+                <td className="expand">{row.position}</td>
                 <td>
                   <span>
                     <a

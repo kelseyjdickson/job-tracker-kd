@@ -16,6 +16,8 @@
   padding: 2rem;
   background-color: white;
   width: 25em;
+  border: 1px solid rgb(169, 193, 226);
+  background-color: rgb(239, 244, 252);
 }
 
 .modal .btn {
@@ -32,7 +34,7 @@
 .form-group input,
 .form-group textarea,
 .form-group select {
-  border: 1px solid black;
+  border: 1px solid rgb(169, 193, 226);
   border-radius: 0.3rem;
   padding: 0.3rem;
   font-size: 1rem;
