@@ -15,7 +15,7 @@
   background-color: rgb(228, 229, 245);
 }
 tr:nth-child(even) {
-  background-color: rgb(252, 252, 255);
+  background-color: rgb(204, 204, 239);
 }
 
 .table thead {
